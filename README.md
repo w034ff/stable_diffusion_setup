@@ -8,7 +8,7 @@
 
 - `huggingface/diffusers`をgit pullする際は`docker/diffusers-pytorch-cuda/Dockerfile`に書き込んだユーザー情報を削除してください
 
-- Anacondaで環境構築する際は[Stable DiffusionをAnacondaで実行する](anaconda_setup/)を確認してください
+- Anacondaで環境構築する際は[Stable DiffusionをAnacondaで実行する](anaconda_setup/README_Anaconda_setup.md)を確認してください
 
 ## 動作環境
 
@@ -125,7 +125,7 @@
 ## Stable Diffusionの実行について
 
 - このリポジトリではText-to-ImageとDreamBoothの実行方法について解説します。
-詳しくは[Text-to-Imageで画像を生成する](text_to_image)、[DreamBoothで画像を生成する](dreambooth/)を確認してください
+詳しくは[Text-to-Imageで画像を生成する](text_to_image/README_TtI.md)、[DreamBoothで画像を生成する](dreambooth/README_dreambooth.md)を確認してください
 
 - その他のStable Diffusionのモデルについては、各々実行方法を調べてください
 
